@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="InvoiceMadeSimple">
+
+	<test name="Test">
+
+		<classes>
+			<class name="ims.TestCases.Employee_info" />
+			<class name="ims.TestCases.Employee_remark" />
+			<class name="ims.TestCases.Team_details" />
+			<class name="ims.TestCases.Period_master" />
+			<class name="ims.TestCases.Invoice_scheduler" />
+			<class name="ims.TestCases.Credit_note" />
+			<class name="ims.TestCases.Invoice" />
+			<class name="ims.TestCases.Project_details" />
+			<class name="ims.TestCases.Receipt" />
+			<class name="ims.TestCases.Remittance" />
+            <class name="ims.TestCases.Bill" />
+            <class name="ims.TestCases.Bill_payment" />
+            <class name="ims.TestCases.Debit_memo" />
+            <class name="ims.TestCases.Payout" />
+            <class name="ims.TestCases.Supplier_projects" />
+            <class name="ims.TestCases.Performance_indicator" />
+            <class name="ims.TestCases.My_Performance_Review" />
+            <class name="ims.TestCases.My_Team_Performance_Review" />
+		</classes>
+
+	</test>
+
+</suite>
